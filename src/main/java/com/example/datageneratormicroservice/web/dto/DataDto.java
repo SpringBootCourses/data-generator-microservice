@@ -1,5 +1,6 @@
 package com.example.datageneratormicroservice.web.dto;
 
+import com.example.datageneratormicroservice.model.Data;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,14 +19,6 @@ public class DataDto {
     private LocalDateTime timestamp;
 
     private double measurement;
-    private MeasurementType measurementType;
-
-    public enum MeasurementType {
-
-        TEMPERATURE,
-        VOLTAGE,
-        POWER
-
-    }
+    private Data.MeasurementType measurementType;
 
 }
