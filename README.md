@@ -10,14 +10,11 @@ This application produces data and sends it to [Data consumer service](https://g
 
 To start an application you need to pass variables to `.env` file.
 
+You can use example `.env.example` file with some predefined environments.
+
 Application is running on port `8081`.
 
-All insignificant features (checkstyle, build check, dto validation) are not presented. 
-
-#### Example:
-```agsl
-KAFKA_BOOTSTRAP_SERVERS=localhost:9092
-```
+All insignificant features (checkstyle, build check, dto validation) are not presented.
 
 Application has two endpoints:
 * POST `/api/v1/data/send`
