@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.4</version>
+        <version>3.2.5</version>
         <relativePath/>
     </parent>
 
@@ -22,10 +22,10 @@
         <java.version>17</java.version>
         <mapstruct.version>1.5.5.Final</mapstruct.version>
         <lombok.version>1.18.32</lombok.version>
-        <spring-kafka.version>3.1.3</spring-kafka.version>
+        <spring-kafka.version>3.1.4</spring-kafka.version>
         <xml.version>0.29.0</xml.version>
         <reactor-kafka.version>1.3.22</reactor-kafka.version>
-        <jacoco.version>0.8.11</jacoco.version>
+        <jacoco.version>0.8.12</jacoco.version>
         <rest-assured.version>5.4.0</rest-assured.version>
         <awaitility.version>4.2.1</awaitility.version>
     </properties>
