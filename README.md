@@ -1,6 +1,6 @@
 # Data generator microservice
 
-[![codecov](https://codecov.io/gh/IlyaLisov/data-generator-microservice/graph/badge.svg?token=SI8VHQM1I3)](https://codecov.io/gh/IlyaLisov/data-generator-microservice)
+[![codecov](https://codecov.io/gh/IlyaLisov/data-generator-microservice/graph/badge.svg?token=SI8VHQM1I3)](https://codecov.io/gh/SpringBootCourses/data-generator-microservice)
 
 This is data generator microservice for [YouTube course](https://www.youtube.com/playlist?list=PL3Ur78l82EFBhKojbSO26BVqQ7n4AthHC).
 
